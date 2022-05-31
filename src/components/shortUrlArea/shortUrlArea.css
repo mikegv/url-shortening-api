@@ -1,0 +1,9 @@
+.shortUrlArea{
+    background-color: purple;
+    transform: translateY(-10px);
+    display:flex;
+    justify-content: space-between;
+}
+.shortUrlArea input{
+    width: 80%;
+}

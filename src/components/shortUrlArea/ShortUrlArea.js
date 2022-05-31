@@ -1,12 +1,14 @@
 import React from 'react';
+import './shortUrlArea.css'
+import { StyledButton } from '../styledComponents/styledComponents'
 
 const ShortUrlArea = () => {
     return (
-        <div>
-            
-Shorten a link here...
+       
+            <div className='shortUrlArea'>
 
-Shorten It!
+            <input type='text' placeholder='Shorten a link here...' />
+<StyledButton>Shorten It!</StyledButton>
         </div>
     );
 };
