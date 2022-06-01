@@ -1,0 +1,19 @@
+.urlResult{
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.shortUrlResult{
+    color:rgb(67, 214, 195);
+}
+
+.copyLink *{
+    margin-left: 15px;
+}

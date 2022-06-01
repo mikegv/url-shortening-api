@@ -5,7 +5,7 @@ import { StyledButton } from '../styledComponents/styledComponents';
 
 const Navbar = () => {
     return (
-        <div className='nav'>
+        <div className='nav content'>
             <ul className='navPages'>
             <li><img src={Logo} alt='website logo' /> </li>
             <li>Features</li>

@@ -1,11 +1,11 @@
 import React from 'react';
 import './hero.css'
-import WorkingImage from '../../images/illustration-working.svg'
+import WorkingImage from '../../images/illustration-working.svg';
 import { StyledButton } from '../styledComponents/styledComponents';
 
 const Hero = () => {
     return (
-        <div className='hero'>
+        <div className='hero content'>
             <div className='heroLeft'>
 <h1>More than just <br />shorter links</h1>
 
