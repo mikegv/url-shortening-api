@@ -3,6 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-.App .content{
+.App > .content{
   padding: 0px 150px;
 }

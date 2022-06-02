@@ -2,19 +2,22 @@
     background-color: white;
     width: 30%;
     border-radius: 10px;
-    padding: 40px;
+    padding: 0px 30px 30px 30px;
     text-align: left;
 }
 .card .iconContainer{
-    width: fit-content;
-    height: auto;
+    width: 80px;
+    height: 80px;
     background-color: hsl(257, 27%, 26%);
     border-radius: 50%;
-    padding: 20px;
-    transform: translateY(-90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50%);
 }
 .card h3{
     color: black;
+    margin-bottom: 15px;
 }
 
 .card p{

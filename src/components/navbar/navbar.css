@@ -18,7 +18,7 @@
 .navPages li{
     margin-right: 50px;
 }
-.navPages li:hover{
+.nav li:hover{
     color: black;
     cursor: pointer;
 }

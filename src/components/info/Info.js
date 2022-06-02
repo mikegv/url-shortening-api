@@ -36,9 +36,7 @@ const Info = () => {
 
             </div>
 
-            Boost your links today
-
-            Get Started
+         
         </div>
     );
 };

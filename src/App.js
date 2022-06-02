@@ -5,6 +5,7 @@ import ShortUrlArea from './components/shortUrlArea/ShortUrlArea'
 import Info from './components/info/Info'
 import Footer from './components/footer/Footer'
 import ContentUrlArea from './components/contentUrlArea/ContentUrlArea';
+import { StyledButton } from './components/styledComponents/styledComponents'
 
 function App() {
   return (
@@ -12,6 +13,11 @@ function App() {
       <Navbar />
       <Hero />
       <ContentUrlArea />
+      <div className='getStartedSection'>
+            <h1>Boost your links today</h1>
+
+            <StyledButton size='large'>Get Started</StyledButton>
+            </div>
       <Footer />
     </div>
   );

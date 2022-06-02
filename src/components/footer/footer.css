@@ -1,0 +1,32 @@
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer > *{
+    margin: 75px 0px;
+}
+
+.footerLinks{
+    display: flex;
+    font-weight: 700;
+}
+.linkCategory{
+    display: flex;
+    flex-direction: column;
+    margin-right: 75px;
+}
+.footer .categoryTitle{
+    margin-bottom: 15px;
+}
+
+.socialIcon{
+    fill: white;
+    margin-left: 30px;
+}
+.socialIcon:hover{
+    fill: hsl(180, 66%, 49%);
+    cursor: pointer;
+}
