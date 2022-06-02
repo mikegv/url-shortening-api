@@ -5,6 +5,7 @@
     font-size: 20px;
     line-height: 150%;
     position: relative;
+    padding-bottom: 100px;
 }
 
 .info hr{
@@ -13,7 +14,7 @@
     background-color: hsl(180, 66%, 49%);
     height: 5px;
     width: 50%;
-    top: 70%;
+    top: 60%;
     left: 26%;
 }
 .info h1{

@@ -4,5 +4,6 @@
   box-sizing: border-box;
 }
 .App > .content{
-  padding: 0px 150px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
