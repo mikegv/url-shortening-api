@@ -1,6 +1,7 @@
 import React from 'react';
 import './urlResults.css'
 import { StyledButton } from '../styledComponents/styledComponents';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 const UrlResults = (props) => {
     return (
@@ -8,7 +9,11 @@ const UrlResults = (props) => {
             <p>{props.enteredUrl}</p>
             <div className='copyLink'>
             <span className='shortUrlResult'>{props.shortUrl}</span>
-            <StyledButton>Copy</StyledButton>
+
+            <CopyToClipboard text={props.shortUrl} onCopy={() => props.onCopyText(props.index)}>
+             <StyledButton copied={props.copied}>{props.copied ? 'Copied' : 'Copy'}</StyledButton>
+            </CopyToClipboard>
+
             </div>
         </div>
     );

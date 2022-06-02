@@ -19,6 +19,7 @@ const ShortUrlArea = (props) => {
         fetch(`https://api.shrtco.de/v2/shorten?url=${enteredText}`)
             .then(result => result.json())
             .then(data => {
+                console.log(data)
                 props.addShortUrl(data)
                 textRef.current.value = ''        
             })
