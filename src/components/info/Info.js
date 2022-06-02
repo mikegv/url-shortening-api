@@ -10,6 +10,7 @@ const Info = () => {
 
             <p>Track how your links are performing across the web with <br />our
                 advanced statistics dashboard.</p>
+                <hr />
             <div className='cardContainer'>
                 <Card
                     cardTitle='Brand Recognition'

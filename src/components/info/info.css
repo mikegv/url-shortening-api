@@ -4,8 +4,18 @@
     color: hsl(0, 1%, 66%);
     font-size: 20px;
     line-height: 150%;
+    position: relative;
 }
 
+.info hr{
+    position: absolute;
+    border: solid 2px hsl(180, 66%, 49%);
+    background-color: hsl(180, 66%, 49%);
+    height: 5px;
+    width: 50%;
+    top: 70%;
+    left: 26%;
+}
 .info h1{
     color: black;
     font-size: 40px;
