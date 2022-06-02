@@ -1,3 +1,11 @@
+# My Live Site Solution
+
+### - [Deployed withFirebase](https://url-shortener-95ea0.web.app)
+
+<br />
+<br />
+<br />
+
 # Frontend Mentor - Shortly URL shortening API Challenge
 
 ![Design preview for the Shortly URL shortening API coding challenge](./design/desktop-preview.jpg)
